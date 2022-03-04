@@ -21,7 +21,7 @@
     border-color: white;
     border-radius: 1px;
     box-shadow: 2px 2px 2px 2px grey;
-    margin-top: 5px;
+    margin-top: 20px;
     z-index: 0;
 }
 
@@ -87,7 +87,7 @@
 
 .fichas:hover>.ftecnicas {
     width: 98%;
-    height: 300px;
+    height: 275px;
     position: relative;
     overflow-y: auto;
 }
@@ -156,13 +156,23 @@
     overflow-y: auto;
 }
 
-.fixed-action-btn:hover>.submenu {
-    z-index: 150;
-    position: fixed;
-}
-
 .flow-text {
     font-size: 1.6rem;
+}
+
+.modal-trigger {
+    position: fixed;
+    top: 70px;
+    z-index: 150;
+}
+
+.modal {
+    height: 100%;
+}
+
+.modal-footer {
+    position: fixed;
+    bottom: 0%;
 }
 
 footer {
