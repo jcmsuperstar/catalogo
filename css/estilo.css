@@ -176,6 +176,10 @@
     bottom: 0%;
 }
 
+.btn-floating:hover {
+    transform: rotate(137deg);
+}
+
 footer {
     width: 100%;
     height: 35px;
