@@ -1,197 +1,195 @@
-.submenu {
-    left: 0%;
-    top: -5px;
-    width: 50%;
-    height: 10%;
-    border-style: solid white;
-    border-radius: 1px;
-    transition: .3s;
-    position: fixed;
-    opacity: 97.50%;
-    z-index: 0;
-}
-
-.fondo {
-    left: 0px;
-    top: 55px;
-    width: 70%;
-    height: 80px;
-    position: fixed;
-    border-style: solid;
-    border-color: white;
-    border-radius: 1px;
-    box-shadow: 2px 2px 2px 2px grey;
-    margin-top: 20px;
-    z-index: 0;
-}
-
-.redes,
-.fichas {
-    left: 8px;
-    width: 130%;
-    text-align: center;
-    border-style: solid;
-    border-radius: 2px;
-    box-shadow: 2px 2px 2px 2px grey;
-    border-color: white;
-    background: white;
-    margin-bottom: 5px;
-}
-
-#rrss,
-.ftecnicas {
-    width: 98%;
-    height: 40px;
-    position: relative;
-    border-style: solid;
-    border-radius: 2px;
-    border-width: .1px;
-    border-color: #00bcd4;
-    transition: 0.3s;
-    background: white;
-    margin: 2px 0px 2px 0px;
-    padding: 4px;
-    text-align: center;
-    font-size: 18px;
-    overflow: hidden;
-}
-
-.cajafichassur,
-.cajafichas3m,
-.cajafichaslore,
-.cajafichasbticino,
-.cajafichaseagle,
-.cajafichashenkel,
-.cajafichasmet,
-.cajafichaspfister {
-    top: 0px;
-    height: 35px;
-    position: relative;
-    border-radius: 3px;
-    border-width: .5px;
-    transition: 0.3s;
-    background: #e1f5fe;
-    margin: 2px 0px 2px 0px;
-    padding: 8px;
-    text-align: center;
-    font-size: 18px;
-    overflow: hidden;
-}
-
-.redes:hover>#rrss {
-    width: 98%;
-    height: 250px;
-    position: relative;
-    overflow-y: auto;
-}
-
-.fichas:hover>.ftecnicas {
-    width: 98%;
-    height: 275px;
-    position: relative;
-    overflow-y: auto;
-}
-
-.contenedor:hover>.cajafichas3m {
-    left: 5%;
-    width: 90%;
-    height: 200px;
-    position: relative;
-    overflow-y: auto;
-}
-
-.contenedor1:hover>.cajafichaslore {
-    left: 5%;
-    width: 90%;
-    height: 200px;
-    position: relative;
-    overflow-y: auto;
-}
-
-.contenedor2:hover>.cajafichasbticino {
-    left: 5%;
-    width: 90%;
-    height: 200px;
-    position: relative;
-    overflow-y: auto;
-}
-
-.contenedor3:hover>.cajafichaseagle {
-    left: 5%;
-    width: 90%;
-    height: 200px;
-    position: relative;
-    overflow-y: auto;
-}
-
-.contenedor4:hover>.cajafichashenkel {
-    left: 5%;
-    width: 90%;
-    height: 200px;
-    position: relative;
-    overflow-y: auto;
-}
-
-.contenedor5:hover>.cajafichasmet {
-    left: 5%;
-    width: 90%;
-    height: 200px;
-    position: relative;
-    overflow-y: auto;
-}
-
-.contenedor6:hover>.cajafichaspfister {
-    left: 5%;
-    width: 90%;
-    height: 200px;
-    position: relative;
-    overflow-y: auto;
-}
-
-.contenedor7:hover>.cajafichassur {
-    left: 5%;
-    width: 90%;
-    height: 200px;
-    position: relative;
-    overflow-y: auto;
-}
-
-.flow-text {
-    font-size: 1.6rem;
-}
-
-.modal-trigger {
-    position: fixed;
-    right: 4%;
-    bottom: 7%;
-    z-index: 150;
-}
-
-.modal {
-    height: 100%;
-}
-
-.modal-footer {
-    position: fixed;
-    bottom: 0%;
-}
-
-.btn-floating:hover {
-    transform: rotate(137deg);
-}
-
-footer {
-    width: 100%;
-    height: 35px;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    text-align: center;
-    z-index: 100;
-}
-
-
-/*@media screen and (min-width: 350px) AND (max-width: 550px) {
+        .submenu {
+            left: 0%;
+            top: -5px;
+            width: 50%;
+            height: 10%;
+            border-style: solid white;
+            border-radius: 1px;
+            transition: .3s;
+            position: fixed;
+            opacity: 97.50%;
+            z-index: 0;
+        }
+        
+        .fondo {
+            left: 0px;
+            top: 55px;
+            width: 70%;
+            height: 80px;
+            position: fixed;
+            border-style: solid;
+            border-color: white;
+            border-radius: 1px;
+            box-shadow: 2px 2px 2px 2px grey;
+            margin-top: 20px;
+            z-index: 0;
+        }
+        
+        .redes,
+        .fichas {
+            left: 8px;
+            width: 130%;
+            text-align: center;
+            border-style: solid;
+            border-radius: 2px;
+            box-shadow: 2px 2px 2px 2px grey;
+            border-color: white;
+            background: white;
+            margin-bottom: 5px;
+        }
+        
+        #rrss,
+        .ftecnicas {
+            width: 98%;
+            height: 40px;
+            position: relative;
+            border-style: solid;
+            border-radius: 2px;
+            border-width: .1px;
+            border-color: #00bcd4;
+            transition: 0.3s;
+            background: white;
+            margin: 2px 0px 2px 0px;
+            padding: 4px;
+            text-align: center;
+            font-size: 18px;
+            overflow: hidden;
+        }
+        
+        .cajafichassur,
+        .cajafichas3m,
+        .cajafichaslore,
+        .cajafichasbticino,
+        .cajafichaseagle,
+        .cajafichashenkel,
+        .cajafichasmet,
+        .cajafichaspfister {
+            top: 0px;
+            height: 35px;
+            position: relative;
+            border-radius: 3px;
+            border-width: .5px;
+            transition: 0.3s;
+            background: #e1f5fe;
+            margin: 2px 0px 2px 0px;
+            padding: 8px;
+            text-align: center;
+            font-size: 18px;
+            overflow: hidden;
+        }
+        
+        .redes:hover>#rrss {
+            width: 98%;
+            height: 250px;
+            position: relative;
+            overflow-y: auto;
+        }
+        
+        .fichas:hover>.ftecnicas {
+            width: 98%;
+            height: 275px;
+            position: relative;
+            overflow-y: auto;
+        }
+        
+        .contenedor:hover>.cajafichas3m {
+            left: 5%;
+            width: 90%;
+            height: 200px;
+            position: relative;
+            overflow-y: auto;
+        }
+        
+        .contenedor1:hover>.cajafichaslore {
+            left: 5%;
+            width: 90%;
+            height: 200px;
+            position: relative;
+            overflow-y: auto;
+        }
+        
+        .contenedor2:hover>.cajafichasbticino {
+            left: 5%;
+            width: 90%;
+            height: 200px;
+            position: relative;
+            overflow-y: auto;
+        }
+        
+        .contenedor3:hover>.cajafichaseagle {
+            left: 5%;
+            width: 90%;
+            height: 200px;
+            position: relative;
+            overflow-y: auto;
+        }
+        
+        .contenedor4:hover>.cajafichashenkel {
+            left: 5%;
+            width: 90%;
+            height: 200px;
+            position: relative;
+            overflow-y: auto;
+        }
+        
+        .contenedor5:hover>.cajafichasmet {
+            left: 5%;
+            width: 90%;
+            height: 200px;
+            position: relative;
+            overflow-y: auto;
+        }
+        
+        .contenedor6:hover>.cajafichaspfister {
+            left: 5%;
+            width: 90%;
+            height: 200px;
+            position: relative;
+            overflow-y: auto;
+        }
+        
+        .contenedor7:hover>.cajafichassur {
+            left: 5%;
+            width: 90%;
+            height: 200px;
+            position: relative;
+            overflow-y: auto;
+        }
+        
+        .flow-text {
+            font-size: 1.6rem;
+        }
+        
+        .modal-trigger {
+            position: fixed;
+            right: 4%;
+            bottom: 7%;
+            z-index: 150;
+        }
+        
+        .modal {
+            height: 100%;
+        }
+        
+        .modal-footer {
+            position: fixed;
+            bottom: 0%;
+        }
+        
+        .btn-floating:hover {
+            transform: rotate(137deg);
+        }
+        
+        footer {
+            width: 100%;
+            height: 35px;
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+            text-align: center;
+            z-index: 100;
+        }
+        /*@media screen and (min-width: 350px) AND (max-width: 550px) {
     .fondo {
         position: fixed;
         top: 10%;
