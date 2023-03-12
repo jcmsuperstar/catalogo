@@ -9,7 +9,7 @@ border-radius: 15px;
 .modal-trigger {
     position: fixed;
     left: 2%;
-    top: 1%;
+    top: 1.2%;
     z-index: 150;
 }
 
