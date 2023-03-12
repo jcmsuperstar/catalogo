@@ -12,3 +12,10 @@ document.addEventListener('DOMContentLoaded', function() {
       hoverEnabled: false
     });
   });
+
+  const btn = document.getElementById("reporte");
+  const ventana = document.getElementById("report1");
+
+  btn.onclick = () => {
+    ventana.hidden = !ventana.hidden
+  }
