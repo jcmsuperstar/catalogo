@@ -1,5 +1,5 @@
-div.row {
-border-radius: 5px !important;
+.card,.card-image {
+border-radius: 15px;
 }
 
 .flow-text {
