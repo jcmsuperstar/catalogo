@@ -17,5 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const ventana = document.getElementById("report1");
 
   btn.onclick = () => {
+    
     ventana.hidden = !ventana.hidden
   }
+
