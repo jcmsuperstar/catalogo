@@ -20,10 +20,4 @@ document.addEventListener('DOMContentLoaded', function() {
     ventana.hidden = !ventana.hidden;
   }
 
-  /*if (ventana = !ventana.hidden){
-    document.getElementById("prueba").innerHTML = "saludo";
-  } else{
-    document.getElementById("prueba").innerHTML = "Error";
-  }
-  
-  
+ 
