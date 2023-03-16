@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function verificarContrasena() {
       var contrasena = document.getElementById("contrasena").value;
     
-      if (contrasena === "Q1w2.0") {
+      if (contrasena === "ccofersa") {
         alert("¡Contraseña correcta!");
         document.getElementById("formContrasena").style.display = "none";
         ventana.hidden = !ventana.hidden;
