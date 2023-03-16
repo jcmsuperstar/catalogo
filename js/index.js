@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ventana.hidden = !ventana.hidden;
   }*/
 
-  function solicitarContrasena() {
+  /*function solicitarContrasena() {
     const contrasena = prompt("Ingrese la contraseña:");
   
     if (contrasena === "A1w2e3r4t5.0") {
@@ -35,4 +35,20 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
       ""
     }
+    }*/
+
+    function solicitarContrasena() {
+      document.getElementById("formContrasena").style.display = "block";
+    }
+    
+    function verificarContrasena() {
+      var contrasena = document.getElementById("contrasena").value;
+    
+      if (contrasena === "Q1w2.0") {
+        alert("¡Contraseña correcta!");
+        document.getElementById("formContrasena").style.display = "none";
+        ventana.hidden = !ventana.hidden;
+      } else {
+        alert("¡Contraseña incorrecta!");
+      }
     }
