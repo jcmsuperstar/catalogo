@@ -24,13 +24,13 @@ document.addEventListener('DOMContentLoaded', function() {
   function solicitarContrasena() {
     const contrasena = prompt("Ingrese la contraseña:");
   
-    if (contrasena === "A1w2.0") {
+    if (contrasena === "A1w2e3") {
       alert("¡Contraseña correcta!");
     } else {
       alert("¡Contraseña incorrecta!");
     }
      
-    if (contrasena === "A1w2.0") {
+    if (contrasena === "A1w2e3") {
       ventana.hidden = !ventana.hidden;
     } else {
       ""
