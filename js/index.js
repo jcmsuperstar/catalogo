@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const contrasena = prompt("Ingrese la contraseña:");
   
     if (contrasena === "A1w2e3") {
-      alert("¡Contraseña correcta!");
+  
     } else {
       alert("¡Contraseña incorrecta!");
     }
