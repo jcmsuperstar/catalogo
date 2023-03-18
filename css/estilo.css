@@ -15,16 +15,13 @@ body.dark-mode .card {
 }
 
 body.dark-mode .flow-text {
-	color: #343131 !important;
+	color: #515050 !important;
 }
 
 body.dark-mode .card-title {
-	color: #cecdcd !important;
+	color: #d1cdcd !important;
 }
 
-body.dark-mode .material-icons {
-	color: #514d4d !important;
-}
 
 .switch {
     position:fixed;
