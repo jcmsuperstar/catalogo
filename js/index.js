@@ -13,6 +13,23 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });*/
 
+  $(document).ready(function() {
+    // Si el modo oscuro ya está activado, establece el interruptor en la posición correcta
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      $('#dark-mode-toggle').prop('checked', true);
+      $('body').addClass('dark-mode');
+    }
+  
+    // Escuchar el evento 'change' del interruptor de modo oscuro
+    $('#dark-mode-toggle').change(function() {
+      if ($(this).is(':checked')) {
+        $('body').addClass('dark-mode');
+      } else {
+        $('body').removeClass('dark-mode');
+      }
+    });
+  });
+
   const btn = document.getElementById("miBoton");
   const ventana = document.getElementById("report1");
 
