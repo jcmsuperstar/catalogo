@@ -6,13 +6,30 @@ body.dark-mode {
 }
 
 body.dark-mode h1, body.dark-mode p {
-	color: #fff;
+	color: #fff !important;
+}
+
+body.dark-mode .card {
+	background-color: #555 !important;
+	color: #fff !important;
+}
+
+body.dark-mode .flow-text {
+	color: #343131 !important;
+}
+
+body.dark-mode .card-title {
+	color: #cecdcd !important;
+}
+
+body.dark-mode .material-icons {
+	color: #514d4d !important;
 }
 
 .switch {
     position:fixed;
     right: 2%;
-    top: 1.3%;
+    top: 2%;
     z-index: 150;
 }
 
