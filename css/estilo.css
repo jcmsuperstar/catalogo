@@ -5,7 +5,7 @@ body.dark-mode {
 	color: #fff;
 }
 
-body.dark-mode h1, body.dark-mode p {
+body.dark-mode h1 {
 	color: #fff !important;
 }
 
@@ -14,14 +14,13 @@ body.dark-mode .card {
 	color: #fff !important;
 }
 
-body.dark-mode .flow-text {
+body.dark-mode .flow-text, body.dark-mode p  {
 	color: #515050 !important;
 }
 
 body.dark-mode .card-title {
 	color: #d1cdcd !important;
 }
-
 
 
 .switch {
