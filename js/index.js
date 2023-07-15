@@ -52,5 +52,37 @@ document.addEventListener('DOMContentLoaded', function() {
     } else { ""}
     }
 
-
+/*buscador*/
+    document.addEventListener('DOMContentLoaded', function() {
+  
  
+      const searchInput = document.getElementById('searchInput');
+        
+       
+      const fileList = document.getElementById('fileList');
+        
+       
+      const files = Array.from(fileList.getElementsByTagName('div'));
+      
+        searchInput.
+      
+       
+      
+      
+      addEventListener('input', function() {
+          
+         
+      const searchTerm = searchInput.value.toLowerCase();
+          
+          files.forEach(function(file) {
+            const fileName = file.textContent.toLowerCase();
+            
+           
+      if (fileName.includes(searchTerm)) {
+              file.style.display = 'block';
+            } else {
+              file.style.display = 'none';
+            }
+          });
+        });
+      });
