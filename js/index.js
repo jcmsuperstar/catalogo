@@ -49,7 +49,8 @@ document.addEventListener('DOMContentLoaded', function() {
      
     if (contrasena === "A1w2e3") {
       ventana.hidden = !ventana.hidden;
-    } else {
-      ""
+    } else { ""}
     }
-    }
+
+
+ 
