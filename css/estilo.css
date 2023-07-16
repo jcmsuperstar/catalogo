@@ -49,14 +49,9 @@ border-radius: 15px;
     height: 100%;
 }
 
-.modal-footer {
-    position: fixed;
-    bottom: 0%;
-}
-
 #searchInput {
     border-radius: 10px;
-    background: #2f2e2e;
+    background: #f3f1f1;
     width: 90%;
     height:30px;
     margin-left: 4%;
@@ -66,7 +61,10 @@ border-radius: 15px;
 
 }
 
-
+.modal-footer {
+    position: fixed;
+    bottom: 0%;
+}
 
 footer {
     display: contents;
