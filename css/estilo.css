@@ -51,13 +51,29 @@ border-radius: 15px;
 
 #searchInput {
     border-radius: 7px;
-    background: #f3f1f1;
-    width: 90%;
-    height:30px;
-    margin-left: 4%;
+    background: #6bf99d;
+    width: 120%;
+    height:40px;
+    margin-top: 10px;
+    margin-left: 10%;
     text-align: center;
    
 }
+
+.input-wrapper {
+    position: relative;
+    width: 271px;
+ }
+
+ .input-icon {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+ }
 
 .modal-footer {
     position: fixed;
