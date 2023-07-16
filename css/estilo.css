@@ -55,6 +55,8 @@ border-radius: 15px;
     width: 90%;
     height:30px;
     margin-left: 4%;
+    text-align: center;
+    text-shadow: #f3f1f1 !important;
 }
 
 .placeholder {
