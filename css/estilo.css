@@ -50,17 +50,13 @@ border-radius: 15px;
 }
 
 #searchInput {
-    border-radius: 10px;
+    border-radius: 7px;
     background: #f3f1f1;
     width: 90%;
     height:30px;
     margin-left: 4%;
     text-align: center;
-    text-shadow: #f3f1f1 !important;
-}
-
-.placeholder {
-
+   
 }
 
 .modal-footer {
