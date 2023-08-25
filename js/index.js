@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.addEventListener('DOMContentLoaded', function() {
   
  
-      const searchInput = document.getElementById('searchInput');
+      const searchInput = document.getElementById('search');
         
        
       const fileList = document.getElementById('fileList');

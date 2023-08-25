@@ -49,16 +49,7 @@ border-radius: 15px;
     height: 100%;
 }
 
-#searchInput {
-    border-radius: 7px;
-    background: #0ab5f3;
-    width: 120%;
-    height:40px;
-    margin-top: 10px;
-    margin-left: 10%;
-    text-align: center;
-   
-}
+
 
 .input-wrapper {
     position: relative;
@@ -91,5 +82,17 @@ footer {
     z-index: 100;
 }
 
-
+/* Estilos para el buscador */
+.input-field {
+    margin: 10px;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  /* Estilos hoverable */
+  .hoverable:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    
+  }
 
