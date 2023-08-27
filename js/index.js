@@ -1,17 +1,10 @@
 M.AutoInit();
 
 document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.modal');
-    var instances = M.Modal.init(elems);
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems);
 });
 
-/*document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.fixed-action-btn');
-    var instances = M.FloatingActionButton.init(elems, {
-      direction: 'up',
-      hoverEnabled: false
-    });
-  });*/
 
   $(document).ready(function() {
     // Si el modo oscuro ya está activado, establece el interruptor en la posición correcta

@@ -1,62 +1,58 @@
+h5 {
+    color:#333;
+    margin: 15px;;
+}
+
 
 /* Estilos personalizados */
 body.dark-mode {
-	background-color: #333;
-	color: #fff;
+    background-color: #333;
+    color: #fff;
 }
 
 body.dark-mode h1 {
-	color: #fff !important;
+    color: #fff !important;
 }
 
 body.dark-mode .card {
-	background-color: #555 !important;
-	color: #fff !important;
+    background-color: #555 !important;
+    color: #fff !important;
 }
 
-body.dark-mode .flow-text, body.dark-mode p  {
-	color: #515050 !important;
+body.dark-mode .flow-text,
+body.dark-mode p {
+    color: #515050 !important;
 }
 
 body.dark-mode .card-title {
-	color: #d1cdcd !important;
+    color: #d1cdcd !important;
 }
+
 
 
 .switch {
-    position:fixed;
+    position: absolute;
     right: 2%;
-    top: 2%;
-    z-index: 150;
+    top: -0.5%;
+    z-index: 151;
 }
+
 /*forma y posicion de las cajas*/
-.card.borde,.card-image {
-border-radius: 15px;
+.card.borde,
+.card-image {
+    border-radius: 15px;
 }
 
 .flow-text {
     font-size: 1.6rem;
 }
 
-.modal-trigger {
-    position:fixed;
-    left: 2%;
-    top: 1.3%;
-    z-index: 150;
-}
-
-.modal {
-    height: 100%;
-}
-
-
-
 .input-wrapper {
     position: relative;
     width: 271px;
- }
+}
 
- .input-icon {
+.input-icon {
     color: #191919;
     position: absolute;
     width: 20px;
@@ -64,7 +60,11 @@ border-radius: 15px;
     left: 50px;
     top: 50%;
     transform: translateY(-50%);
- }
+}
+
+.btn-large {
+    margin: 5px;;
+}
 
 .modal-footer {
     position: fixed;
@@ -74,7 +74,7 @@ border-radius: 15px;
 footer {
     display: contents;
     width: 100%;
-    height:30px;
+    height: 30px;
     position: fixed;
     bottom: 0px;
     left: 0px;
@@ -86,13 +86,13 @@ footer {
 .input-field {
     margin: 10px;
     border-radius: 5px;
-    width: 200px;
-  }
-  
-  /* Estilos hoverable */
-  .hoverable:hover {
+    width: 300px;
+}
+
+/* Estilos hoverable */
+.hoverable:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease-in-out;
-    
-  }
+
+}
 
