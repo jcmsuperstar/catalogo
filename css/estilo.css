@@ -54,21 +54,6 @@ body.dark-mode .card-title {
     font-size: 1.6rem;
 }
 
-.input-wrapper {
-    position: relative;
-    width: 271px;
-}
-
-.input-icon {
-    color: #191919;
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 50px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 .btn-large {
     margin: 5px;
 }
@@ -93,12 +78,14 @@ footer {
 .input-field {
     margin: 10px;
     border-radius: 5px;
-    width: 300px;
+    width: 45px;
 }
 
 /* Estilos hoverable */
 .hoverable:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease-in-out;
+    width: 400px;
+    transition: width 0.4s ease-in-out;
 
 }
