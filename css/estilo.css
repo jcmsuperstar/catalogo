@@ -94,14 +94,15 @@ body {
 
 .container {
     position: relative;
-    top: 70px;
+    top: 40px;
 }
 .contenedor {
 	position: absolute;
 	left: 51%;
-	top: 108px;
+	top: 100px;
 	transform: translate(-50%,-50%);
 	padding: 10px;
+    z-index: 999;
 }
 
 input {
