@@ -40,7 +40,7 @@ body.dark-mode .card-title {
 .switch {
     position: absolute;
     right: 2%;
-    top: -0.5%;
+    top: -1px;
     z-index: 151;
 }
 
@@ -58,20 +58,16 @@ body.dark-mode .card-title {
     margin: 5px;
 }
 
-.modal-footer {
-    position: fixed;
-    bottom: 0%;
-}
 
 footer {
-    display: contents;
+    display:contents;
     width: 100%;
     height: 30px;
-    position: fixed;
-    bottom: 0px;
+    position:relative !important;
+    bottom: 50px ;
     left: 0px;
     text-align: center;
-    z-index: 100;
+    padding: 10px;
 }
 
 /* Estilos para el buscador 
