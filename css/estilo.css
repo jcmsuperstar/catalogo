@@ -94,12 +94,12 @@ body {
 
 .container {
     position: relative;
-    top: 88px;
+    top: 70px;
 }
 .contenedor {
 	position: absolute;
 	left: 51%;
-	top: 115px;
+	top: 108px;
 	transform: translate(-50%,-50%);
 	padding: 10px;
 }
@@ -128,9 +128,9 @@ input {
 .btn {
 	position: absolute;
 	right: 0px;
-	top: -8px;
-	width: 80px;
-	height: 80px;
+	top: -4px;
+	width: 70px;
+	height: 70px;
 	background: #D50000;
 	line-height: 80px;
 	border-radius: 50%;
