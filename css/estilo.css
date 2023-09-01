@@ -36,6 +36,7 @@ body.dark-mode .card-title {
 .card.borde,
 .card-image {
     border-radius: 15px;
+
 }
 
 .flow-text {
@@ -151,13 +152,7 @@ input {
 }
 
 
-.borde:hover  .card-reveal {
-    border-radius: 15px;
-    display:block!important;
-    transform: translateY(-100%) !important;
-    transition-duration: all .7s ease-in-out !important;
 
-}
 
 .bb {
     top: 8px;
@@ -165,15 +160,25 @@ input {
     display: block !important;
     position: absolute !important;
     z-index: 152;
+
 }
 
 .btn-small {
     top: 10px;
     border-radius: 5px !important;
     margin-left: 0% !important;
+
 }
 
 .menuh {
     top: 0px;
     border-radius: 5px !important;
+}
+
+.borde:hover  .card-reveal {
+    border-radius: 15px;
+    display:block!important;
+    transform:  translateY(-100%)  !important;
+    transition: all .5s ease-in-out !important;
+
 }
