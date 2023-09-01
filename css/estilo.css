@@ -166,9 +166,8 @@ input {
 }
 
 .bb {
-    top: 10px;
-    right: 10px;
-    ;
+    top: 8px;
+    right: 20px;
     position: absolute !important;
     z-index: 999;
 }
