@@ -151,7 +151,9 @@ input {
     background: #cc0000;
 }
 
-
+.material-icons {
+    pointer-events: none ;
+}
 
 
 .bb {
@@ -182,3 +184,4 @@ input {
     transition: all .5s ease-in-out !important;
 
 }
+
