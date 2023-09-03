@@ -1,4 +1,4 @@
-/* Estilos personalizados */
+/* Estilos personalizados modo oscuro */
 body.dark-mode {
     background-color: #333;
     color: #fff;
@@ -23,7 +23,7 @@ body.dark-mode .card-title {
 }
 
 
-
+/*boton modo oscuro*/
 .switch {
     position: absolute;
     right: 2%;
@@ -33,10 +33,9 @@ body.dark-mode .card-title {
 
 /*forma y posicion de las cajas*/
 .card.borde,
-.card-image,
+.card-image,.card-reveal,
 #modo-nieve {
     border-radius: 15px;
-
 }
 
 .flow-text {
@@ -58,22 +57,6 @@ footer {
     text-align: center;
     padding: 10px;
 }
-
-/* Estilos para el buscador 
-.input-field {
-    margin: 10px;
-    border-radius: 5px;
-    width: 45px;
-}
-
-/* Estilos hoverable
-.buscador:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: box-shadow 0.3s ease-in-out;
-    width: 360px;
-    transition: width 0.4s ease-in-out;
-
-} */
 
 body {
     margin: 0;
@@ -120,10 +103,10 @@ input {
     position: absolute;
     right: -20px;
     top: -4px;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background: #D50000;
-    line-height: 80px;
+    line-height: 10px;
     border-radius: 50%;
     text-align: center;
     cursor: pointer;
@@ -133,7 +116,7 @@ input {
 .btn i {
     font-size: 25px;
     color: white;
-    line-height: 80px;
+    line-height: 70px;
     transition: all .7s ease;
 }
 
@@ -172,22 +155,22 @@ input {
 
 }
 
+/*menu hamburguesa*/
 .menuh {
     top: 0px;
     border-radius: 5px !important;
 }
 
-.borde:hover .card-reveal {
-    border-radius: 15px;
-    display: block !important;
-    transform: translatey(-100%) !important;
-    transition: all .5s ease-in-out !important;
 
+.borde:hover .card-reveal {
+    display:block !important;
+    transform:translateY(-100%) !important;
+    transition: all .7s ease-in-out;
 }
+
 
 #modo-nieve {
     position: relative;
-
     overflow: hidden;
 
 }
