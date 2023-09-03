@@ -80,7 +80,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-var nieve_cantidad =70;
+
+/*efecto nieve en card de temporada navideña*/
+var nieve_cantidad =100;
         var nieve_colorr = ["#aaaacc", "#ddddFF", "#ccccDD"];
         var nieve_tipo = ["Arial Black", "Arial Narrow", "Times", "Comic Sans MS"];
         var nieve_letra = "*";
