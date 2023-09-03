@@ -34,7 +34,7 @@ body.dark-mode .card-title {
 
 /*forma y posicion de las cajas*/
 .card.borde,
-.card-image {
+.card-image, #modo-nieve {
     border-radius: 15px;
 
 }
@@ -185,3 +185,13 @@ input {
 
 }
 
+#modo-nieve {
+    position: relative;
+   
+    overflow: hidden;
+}
+.copo-nieve {
+    position: absolute;
+    user-select: none;
+    pointer-events: none;
+}
