@@ -80,12 +80,12 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-var nieve_cantidad = 200;
+var nieve_cantidad =70;
         var nieve_colorr = ["#aaaacc", "#ddddFF", "#ccccDD"];
         var nieve_tipo = ["Arial Black", "Arial Narrow", "Times", "Comic Sans MS"];
         var nieve_letra = "*";
         var nieve_velocidad = 1.0;
-        var nieve_cantidadsize = 50;
+        var nieve_cantidadsize = 40;
         var nieve_chico = 10;
 
         function aleatorio(range) {
