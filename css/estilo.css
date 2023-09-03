@@ -180,7 +180,7 @@ input {
 .borde:hover .card-reveal {
     border-radius: 15px;
     display: block !important;
-    transform: translateY(-100%) !important;
+    transform: translatey(-100%) !important;
     transition: all .5s ease-in-out !important;
 
 }
