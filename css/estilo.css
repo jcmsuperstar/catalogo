@@ -1,4 +1,4 @@
-/* Estilos personalizados modo oscuro */
+/* Estilos personalizados */
 body.dark-mode {
     background-color: #333;
     color: #fff;
@@ -23,7 +23,7 @@ body.dark-mode .card-title {
 }
 
 
-/*boton modo oscuro*/
+
 .switch {
     position: absolute;
     right: 2%;
@@ -57,6 +57,7 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
 
 body {
     margin: 0;
@@ -103,10 +104,10 @@ input {
     position: absolute;
     right: -20px;
     top: -4px;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     background: #D50000;
-    line-height: 10px;
+    line-height: 80px;
     border-radius: 50%;
     text-align: center;
     cursor: pointer;
@@ -116,7 +117,7 @@ input {
 .btn i {
     font-size: 25px;
     color: white;
-    line-height: 70px;
+    line-height: 80px;
     transition: all .7s ease;
 }
 
@@ -155,17 +156,14 @@ input {
 
 }
 
-/*menu hamburguesa*/
 .menuh {
     top: 0px;
     border-radius: 5px !important;
 }
 
-
 .borde:hover .card-reveal {
     display:block !important;
     transform:translateY(-100%) !important;
-    transition: all .7s ease-in-out;
 }
 
 
