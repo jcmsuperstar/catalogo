@@ -140,30 +140,30 @@ window.addEventListener("load", movenieve);
 
 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   const cards = document.querySelectorAll('.card');
 
-  cards.forEach(function(card) {
-      card.addEventListener('click', function() {
-          // Cierra todos los cards abiertos
-          cards.forEach(function(c) {
-              if (c !== card) {
-                  const reveal = c.querySelector('.card-reveal');
-                  if (reveal) {
-                      reveal.style.transform = 'translateY(0)';
-                  }
-              }
-          });
-
-          // Abre o cierra el card actual
-          const reveal = card.querySelector('.card-reveal');
+  cards.forEach(function (card) {
+    card.addEventListener('click', function () {
+      // Cierra todos los cards abiertos
+      cards.forEach(function (c) {
+        if (c !== card) {
+          const reveal = c.querySelector('.card-reveal');
           if (reveal) {
-              if (reveal.style.transform === 'translateY(0px)') {
-                  reveal.style.transform = 'translateY(-100%)';
-              } else {
-                  reveal.style.transform = 'translateY(0)';
-              }
+            reveal.style.transform = 'translateY(0)';
           }
+        }
       });
+
+      // Abre o cierra el card actual
+      const reveal = card.querySelector('.card-reveal');
+      if (reveal) {
+        if (reveal.style.transform === 'translateY(0px)') {
+          reveal.style.transform = 'translateY(-100%)';
+        } else {
+          reveal.style.transform = 'translateY(0)';
+        }
+      }
+    });
   });
 });

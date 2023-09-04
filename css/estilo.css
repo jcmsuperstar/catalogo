@@ -33,7 +33,8 @@ body.dark-mode .card-title {
 
 /*forma y posicion de las cajas*/
 .card.borde,
-.card-image,.card-reveal,
+.card-image,
+.card-reveal,
 #modo-nieve {
     border-radius: 15px;
 }
@@ -165,7 +166,11 @@ input {
 }
 
 .card-reveal {
-    transition: transform 0.4s ease-in-out; 
+    transform: translateY(-100%);
+    /* Oculta el elemento fuera de la vista */
+    transition: transform 0.3s ease-in-out;
+    /* Agrega la transición */
+    transition: transform 0.4s ease-in-out;
 }
 
 #modo-nieve {
@@ -186,4 +191,3 @@ input {
     width: 90%;
     left: 15px;
 }
-
