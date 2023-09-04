@@ -82,58 +82,61 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 /*efecto nieve en card de temporada navideña*/
-var nieve_cantidad =100;
-        var nieve_colorr = ["#aaaacc", "#ddddFF", "#ccccDD"];
-        var nieve_tipo = ["Arial Black", "Arial Narrow", "Times", "Comic Sans MS"];
-        var nieve_letra = "*";
-        var nieve_velocidad = 2.0;
-        var nieve_cantidadsize = 30;
-        var nieve_chico = 10;
+var nieve_cantidad = 100;
+var nieve_colorr = ["#aaaacc", "#ddddFF", "#ccccDD"];
+var nieve_tipo = ["Arial Black", "Arial Narrow", "Times", "Comic Sans MS"];
+var nieve_letra = "*";
+var nieve_velocidad = 2.0;
+var nieve_cantidadsize = 30;
+var nieve_chico = 10;
 
-        function aleatorio(range) {
-            return Math.floor(range * Math.random());
-        }
+function aleatorio(range) {
+  return Math.floor(range * Math.random());
+}
 
-        function crearCopo() {
-            var copoNieve = document.createElement("span");
-            copoNieve.className = "copo-nieve";
-            copoNieve.innerHTML = nieve_letra;
-            copoNieve.style.fontSize = aleatorio(nieve_cantidadsize - nieve_chico) + nieve_chico + "px";
-            copoNieve.style.color = nieve_colorr[aleatorio(nieve_colorr.length)];
-            copoNieve.style.left = aleatorio(window.innerWidth) + "px";
-            copoNieve.style.top = aleatorio(window.innerHeight) + "px";
-            document.getElementById("modo-nieve").appendChild(copoNieve);
-        }
+function crearCopo() {
+  var copoNieve = document.createElement("span");
+  copoNieve.className = "copo-nieve";
+  copoNieve.innerHTML = nieve_letra;
+  copoNieve.style.fontSize = aleatorio(nieve_cantidadsize - nieve_chico) + nieve_chico + "px";
+  copoNieve.style.color = nieve_colorr[aleatorio(nieve_colorr.length)];
+  copoNieve.style.left = aleatorio(window.innerWidth) + "px";
+  copoNieve.style.top = aleatorio(window.innerHeight) + "px";
+  document.getElementById("modo-nieve").appendChild(copoNieve);
+}
 
-        function initnieve() {
-            for (var i = 0; i < nieve_cantidad; i++) {
-                crearCopo();
-            }
-        }
+function initnieve() {
+  for (var i = 0; i < nieve_cantidad; i++) {
+    crearCopo();
+  }
+}
 
-        function movenieve() {
-            var coposNieve = document.querySelectorAll(".copo-nieve");
-            coposNieve.forEach(function(copo) {
-                var posy = parseFloat(copo.style.top);
-                posy += nieve_velocidad;
+function movenieve() {
+  var coposNieve = document.querySelectorAll(".copo-nieve");
+  coposNieve.forEach(function (copo) {
+    var posy = parseFloat(copo.style.top);
+    posy += nieve_velocidad;
 
-                if (posy >= window.innerHeight) {
-                    posy = -parseFloat(copo.style.fontSize);
-                    copo.style.left = aleatorio(window.innerWidth) + "px";
-                }
+    if (posy >= window.innerHeight) {
+      posy = -parseFloat(copo.style.fontSize);
+      copo.style.left = aleatorio(window.innerWidth) + "px";
+    }
 
-                copo.style.top = posy + "px";
-            });
+    copo.style.top = posy + "px";
+  });
 
-            requestAnimationFrame(movenieve);
-        }
+  requestAnimationFrame(movenieve);
+}
 
-        window.addEventListener("DOMContentLoaded", initnieve);
-        window.addEventListener("resize", function() {
-            var coposNieve = document.querySelectorAll(".copo-nieve");
-            coposNieve.forEach(function(copo) {
-                copo.style.left = aleatorio(window.innerWidth) + "px";
-            });
-        });
+window.addEventListener("DOMContentLoaded", initnieve);
+window.addEventListener("resize", function () {
+  var coposNieve = document.querySelectorAll(".copo-nieve");
+  coposNieve.forEach(function (copo) {
+    copo.style.left = aleatorio(window.innerWidth) + "px";
+  });
+});
 
-        window.addEventListener("load", movenieve);
+window.addEventListener("load", movenieve);
+
+
+

@@ -167,6 +167,7 @@ input {
 .borde:hover .card-reveal {
     display:block !important;
     transform:translateY(-100%) !important;
+    transition: all 0.5s ease-in-out;
 }
 
 
@@ -182,3 +183,10 @@ input {
     pointer-events: none;
     z-index: 153;
 }
+
+/*menus de la barra lateral*/
+.lateral {
+    width: 90%;
+    left: 15px;
+}
+
