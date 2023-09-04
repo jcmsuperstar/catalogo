@@ -164,12 +164,9 @@ input {
     border-radius: 5px !important;
 }
 
-.borde:hover .card-reveal {
-    display:block !important;
-    transform:translateY(-100%) !important;
-    transition: all 0.5s ease-in-out;
+.card-reveal {
+    transition: transform 0.4s ease-in-out; 
 }
-
 
 #modo-nieve {
     position: relative;
