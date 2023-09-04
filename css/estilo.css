@@ -170,7 +170,7 @@ input {
     /* Oculta el elemento fuera de la vista */
     transition: transform 0.3s ease-in-out;
     /* Agrega la transición */
-    transition: transform 0.4s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 #modo-nieve {
