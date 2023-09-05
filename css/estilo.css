@@ -191,3 +191,22 @@ input {
     width: 90%;
     left: 15px;
 }
+
+@media (min-width: 995px) {
+    .contenedor {
+        position: absolute;
+        left: 87%;
+        top: 110px;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        z-index: 151;
+
+
+    }
+
+    .contenedor:hover input {
+        width: 220px !important;
+        transition: all .7s ease-in-out;
+    
+    }
+}
