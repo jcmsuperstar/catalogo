@@ -123,6 +123,12 @@ input {
     transition: all .7s ease;
 }
 
+.btn.red:hover .container {
+    position: relative;
+    top: 300px !important;
+
+}
+
 .contenedor:hover input {
     width: 320px !important;
     transition: all .7s ease-in-out;
@@ -206,7 +212,7 @@ input {
     }
 
     .contenedor:hover input {
-        width: 220px !important;
+        width: 240px !important;
         transition: all .7s ease-in-out;
     
     }
