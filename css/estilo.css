@@ -68,11 +68,12 @@ body {
 
 .container {
     position: relative;
-    top: 40px;
+    top: 70px;
 }
 
 .contenedor {
     position: absolute;
+
     left: 51%;
     top: 100px;
     transform: translate(-50%, -50%);
@@ -195,7 +196,7 @@ input {
 @media (min-width: 995px) {
     .contenedor {
         position: absolute;
-        left: 87%;
+        left: 13%;
         top: 110px;
         transform: translate(-50%, -50%);
         padding: 10px;
