@@ -214,6 +214,29 @@ input {
     .contenedor:hover input {
         width: 240px !important;
         transition: all .7s ease-in-out;
-    
+
+    }
+}
+
+
+
+@media (max-width: 770px) {
+
+    .brand-logo {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 530px) {
+
+    .brand-logo {
+        font-size: 17px !important;
+    }
+}
+
+@media (max-width: 445px) {
+
+    .brand-logo {
+        font-size: 13px !important;
     }
 }
