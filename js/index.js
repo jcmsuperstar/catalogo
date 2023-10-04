@@ -139,7 +139,7 @@ window.addEventListener("resize", function () {
 window.addEventListener("load", movenieve);
 
 
-
+//controla la apertura y cierre de los cards para evitar que esten abiertos al mismo tiempo
 document.addEventListener('DOMContentLoaded', function () {
   const cards = document.querySelectorAll('.card');
 
