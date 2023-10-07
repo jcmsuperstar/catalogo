@@ -15,20 +15,24 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>COFERSA</title>
+    <!--logo pesta;a navegador-->
     <link rel="icon" href="logos/logo - copia.ico" type="image/ico">
+    <!--carpeta de decoracion css-->
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 <header>
+    <!--barra titulo-->
     <nav class="barra light-blue darken-4"> <a class="brand-logo center ">COFERSA</a>
-        <!-- modo oscuro -->
+        <!-- Switch modo oscuro en barra de titulo -->
         <div class="switch">
             <label>
                 <input type="checkbox" id="dark-mode-toggle">
                 <span class="lever"></span>
             </label>
         </div>
+        <!--menu lateral -->
         <ul id="slide-out" class="sidenav">
-
+<!--menu oculto -->
             <li><button id="miBoton" class="waves-effect waves-light btn-large" onclick="solicitarContrasena()"><i
                         class="material-icons small left">cloud</i>Reportes</button>
                 <div class="row" id="report1" hidden>
@@ -81,6 +85,7 @@
                 </div>
             </li>
         </ul>
+        <!--Menu hamburguesa- llamada menu lateral-->
         <a href="#" data-target="slide-out"
             class=" menuh sidenav-trigger show-on-large  "><i
                 class="material-icons">menu</i></a>
@@ -93,13 +98,17 @@
 <body>
 
     <div class="contenedor">
+        <!--buscador-->
         <input id="search" type="text" placeholder="Buscar">
         <div class="btn red darken-1">
             <i class="fa fa-search "></i>
         </div>
     </div>
+    <!--id=filelist seccion de busqueda de input id=search-->
     <ul id="fileList">
+        
         <div class="container ">
+            <!--row contiene los cards de la seccion promociones -->
             <div class="row">
 
                 <div class="col s12 offset-m0 l4">
@@ -150,9 +159,7 @@
                         </div>
                         <div class="card-reveal ">
                             <span class="card-title grey-text text-darken-4 ">Producto Nuevo</span>
-                            <li><a class="flow-text"
-                                    href="https://drive.google.com/file/d/1Gzg0M8j49EiD1fmP7AoGCr8Hw3cI2oTB/view?usp=sharing" hidden>Abanicos
-                                    Premier</a></li><br>
+                          
                             <li><a class="flow-text"
                                     href="https://drive.google.com/file/d/1Uc3OO4hfd97WsGNUjD3h8zL9cJwDV_hc/view?usp=sharing">Cajas
                                     de Pino</a></li><br>
@@ -175,6 +182,7 @@
                     </div>
                 </div>
             </div>
+            <!--row contiene todos los cards de la seccion productos-->
             <div class="row ">
                 <div class="col s12 m6  l4 xl3 ">
                     <div class="card borde small z-depth-5 hoverable">
@@ -1185,7 +1193,7 @@
     </ul>
 
 
-
+<!--pie de pagina-->
     <footer class="page-footer">
         <div class="container">
             <div class="row">
