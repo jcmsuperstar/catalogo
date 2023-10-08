@@ -1,10 +1,10 @@
+//inicia las llamadas de matrerialize
 M.AutoInit();
 
-document.addEventListener('DOMContentLoaded', function () {
+/*document.addEventListener('DOMContentLoaded', function () {
   var elems = document.querySelectorAll('.sidenav');
   var instances = M.Sidenav.init(elems);
-});
-
+});*/
 
 $(document).ready(function () {
   // Si el modo oscuro ya está activado, establece el interruptor en la posición correcta
@@ -45,7 +45,7 @@ function solicitarContrasena() {
   } else { "" }
 }
 
-/*buscador*/
+/*buscador- captura el id=search y lo compara compara con los div de filelist*/
 document.addEventListener('DOMContentLoaded', function () {
 
 
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
         if (fileName.includes(searchTerm)) {
-          file.style.display = 'block';
+          file.style.display = '';
         } else {
           file.style.display = 'none';
         }
