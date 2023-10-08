@@ -241,6 +241,6 @@ input {
 @media (max-width: 445px) {
 
     .brand-logo {
-        font-size: 13px !important;
+        display: none !important;
     }
 }
