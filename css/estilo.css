@@ -22,6 +22,11 @@ body.dark-mode .card-title {
     color: #d1cdcd !important;
 }
 
+#imgtitulo {
+    margin-top: 3px;
+    border-radius: 6px;
+
+}
 
 
 .switch {
