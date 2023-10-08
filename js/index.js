@@ -59,9 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   searchInput.
 
-
-
-
+//muestra los elementos que coinciden con la busqueda del input
     addEventListener('input', function () {
 
 
@@ -72,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
         if (fileName.includes(searchTerm)) {
-          file.style.display = '';
+          file.style.display = 'block';
         } else {
           file.style.display = 'none';
         }
@@ -81,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-/*efecto nieve en card de temporada navideña*/
+//efecto nieve en card de temporada navideña
 var nieve_cantidad = 100;
 var nieve_colorr = ["#aaaacc", "#ddddFF", "#ccccDD"];
 var nieve_tipo = ["Arial Black", "Arial Narrow", "Times", "Comic Sans MS"];
