@@ -238,7 +238,7 @@ input {
     }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 430px) {
 
     .brand-logo {
         display: none !important;
